@@ -9,6 +9,7 @@ list.
 
 """
 List_data = [] 
+print("\nWrite number and press enter.\nTo Finish press enter key or type non integer and press enter key\n")
 try:     #while geting integers add them to list
     while True:
         List_data.append(int(input()))
@@ -16,6 +17,6 @@ except:
     class Yolo:
         def __init__(self, number):
             self.number = number.sort()
-            print(number[-2])
+            print(f" Second biggest number is: {number[-2]}")
 
 Yolo(List_data)
